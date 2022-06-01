@@ -1,0 +1,143 @@
+* {
+  font-family: Helvetica;
+  color:seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.95;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+header{
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 75px;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  z-index: 10;
+}
+
+header a{
+  max-height: 50px;
+}
+
+
+
+
+nav li {
+  text-decoration: underline;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font-weight: bold;
+}
+section{
+  margin-bottom: 30px;
+}
+
+
+main{
+  padding-top: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-image{
+  background-image: url(../images/looseTea.webp);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-text{
+  padding: 13px;
+  min-width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  word-wrap: normal;
+  word-break: keep-all;
+}
+
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card {
+  margin: 15px;
+  width: 300px;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+}
+
+
+.location{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/outside.webp);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.location-text{
+  padding-top: 60px;
+  padding-bottom: 25px;
+  background-color: transparent;
+  font-weight: bold;
+  opacity: 0.9;
+ 
+}
+
+
+.loccontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+
+.loccard {
+  width: 300px;
+  margin: 10px;
+}
+
+.loccard *{
+  padding: 10;
+  line-height: 60px;
+}
+
+#cpr{
+  text-align: left;
+  padding-left: 20px;
+}
